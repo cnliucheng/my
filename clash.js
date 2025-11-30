@@ -168,17 +168,17 @@ function main(config) {
     {
       name: "🎬 奈飞视频",
       type: "select",
-      proxies: ["🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", ...coreSubProxies]
+      proxies: coreSubProxies
     },
     {
       name: "🐭 迪士尼+",
       type: "select",
-      proxies: ["🇸🇬 新加坡节点", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇺🇸 美国节点", "🇯🇵 日本节点", ...coreSubProxies]
+      proxies: coreSubProxies
     },
     {
       name: "📲 电报消息",
       type: "select",
-      proxies: ["🇸🇬 新加坡节点", "🇺🇸 美国节点", "🇭🇰 香港节点", ...coreSubProxies]
+      proxies: coreSubProxies
     },
     {
       name: "☁️ 谷歌服务",
@@ -203,7 +203,7 @@ function main(config) {
     {
       name: "🐟 漏网之鱼",
       type: "select",
-      proxies: ["🚀 节点选择", "♻️ 自动选择", "🇭🇰 香港节点", "🎯 全球直连", ...coreSubProxies]
+      proxies: ["🎯 全球直连", ...coreSubProxies]
     }
   ];
 
